@@ -62,9 +62,6 @@ export function SiteHeader() {
           className="flex cursor-pointer items-center gap-2 transition-opacity hover:opacity-70"
         >
           <span className="font-display text-[26px] font-medium tracking-[0.02em]">Veloria</span>
-          <span className="mt-[10px] font-sans text-[10px] font-medium uppercase not-italic tracking-[0.3em] opacity-55">
-            EST·2025
-          </span>
         </Link>
 
         {/* The full nav needs ~700px of comfortable room; below `lg` the
