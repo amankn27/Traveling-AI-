@@ -128,40 +128,34 @@ export function Hero() {
         style={{ height: 80, zIndex: 8, background: '#000' }}
       />
 
-      {/* Mode indicator. */}
-      <div
-        className="pointer-events-none absolute left-1/2 flex -translate-x-1/2 items-center gap-2.5"
-        style={{
-          top: 96,
-          zIndex: 20,
-          padding: '7px 16px 7px 12px',
-          borderRadius: 999,
-          background: exploreMode ? 'rgba(20, 40, 20, 0.55)' : 'rgba(0, 0, 0, 0.45)',
-          border: exploreMode
-            ? '1px solid rgba(180, 255, 180, 0.35)'
-            : '1px solid rgba(255, 255, 255, 0.18)',
-          backdropFilter: 'blur(12px)',
-          WebkitBackdropFilter: 'blur(12px)',
-          fontSize: 11,
-          letterSpacing: '0.16em',
-          textTransform: 'uppercase',
-          color: exploreMode ? 'rgba(220, 255, 220, 0.95)' : 'rgba(255,255,255,0.8)',
-          fontWeight: 500,
-          transition: 'background 400ms ease, border-color 400ms ease, color 400ms ease',
-        }}
-      >
-        <span
-          className={exploreMode ? 'status-dot' : undefined}
+      {/* Shown only while the scene has pointer control — browse mode is the
+          resting state and needs no label. */}
+      {exploreMode ? (
+        <div
+          className="hint-rise pointer-events-none absolute left-1/2 flex -translate-x-1/2 items-center gap-2.5"
           style={{
-            width: 7,
-            height: 7,
-            borderRadius: '50%',
-            background: exploreMode ? '#9bff9b' : 'rgba(255,255,255,0.55)',
-            transition: 'background 400ms ease',
+            top: 96,
+            zIndex: 20,
+            padding: '7px 16px 7px 12px',
+            borderRadius: 999,
+            background: 'rgba(20, 40, 20, 0.55)',
+            border: '1px solid rgba(180, 255, 180, 0.35)',
+            backdropFilter: 'blur(12px)',
+            WebkitBackdropFilter: 'blur(12px)',
+            fontSize: 11,
+            letterSpacing: '0.16em',
+            textTransform: 'uppercase',
+            color: 'rgba(220, 255, 220, 0.95)',
+            fontWeight: 500,
           }}
-        />
-        {exploreMode ? 'Explore Mode · Active' : 'Browse Mode'}
-      </div>
+        >
+          <span
+            className="status-dot"
+            style={{ width: 7, height: 7, borderRadius: '50%', background: '#9bff9b' }}
+          />
+          Explore Mode · Active
+        </div>
+      ) : null}
 
       {/* Copy stack. */}
       <div
