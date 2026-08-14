@@ -8,7 +8,7 @@ export function CuratorNote() {
   return (
     <section id="experiences" className="relative w-full overflow-hidden" style={{ height: 720 }}>
       <Image
-        src="/images/curator-note.png"
+        src="/images/curator-note.jpg"
         alt="A quiet evening at a cliffside infinity pool"
         fill
         sizes="100vw"

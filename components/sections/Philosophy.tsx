@@ -50,7 +50,7 @@ export function Philosophy() {
         aria-hidden="true"
         className="ken-burns absolute inset-0"
         style={{
-          backgroundImage: 'url(/images/philosophy-bg.png)',
+          backgroundImage: 'url(/images/philosophy-bg.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center center',
         }}

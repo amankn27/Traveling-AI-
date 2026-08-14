@@ -171,7 +171,7 @@ export const DESTINATIONS: readonly Destination[] = [
     season: 'Late Autumn',
     blurb:
       'Hidden machiya stays, private tea ceremonies in moss gardens, and dawn walks through Arashiyama bamboo before the crowds arrive.',
-    image: '/images/kyoto.png',
+    image: '/images/kyoto.jpg',
     terrain: 'city',
     imageHeight: 640,
     offset: false,
@@ -188,7 +188,7 @@ export const DESTINATIONS: readonly Destination[] = [
     season: 'Summer Solstice',
     blurb:
       'Cliffside cabins above mirror fjords, midnight sun hikes with local shepherds, and tasting menus crafted from sea, peat, and moss.',
-    image: '/images/faroe-islands.png',
+    image: '/images/faroe-islands.jpg',
     terrain: 'island',
     imageHeight: 500,
     offset: true,
@@ -205,7 +205,7 @@ export const DESTINATIONS: readonly Destination[] = [
     season: 'Early Spring',
     blurb:
       'A private riad in the Medina’s quiet heart, Atlas excursions on horseback, and an evening lit only by lanterns and starlight.',
-    image: '/images/marrakech.png',
+    image: '/images/marrakech.jpg',
     terrain: 'palace',
     imageHeight: 500,
     offset: false,
@@ -222,7 +222,7 @@ export const DESTINATIONS: readonly Destination[] = [
     season: 'Antipodean Autumn',
     blurb:
       'Glaciers seen from horseback at first light, a tented camp at the foot of Torres del Paine, and evenings around fire and silence.',
-    image: '/images/patagonia.png',
+    image: '/images/patagonia.jpg',
     terrain: 'andes',
     imageHeight: 640,
     offset: true,
@@ -401,7 +401,7 @@ export const CHAPTERS: readonly Chapter[] = [
       'A meditation on landing softly — what we leave behind, and what waits for us in the in-between.',
     author: 'Élodie Marchand',
     readTime: 6,
-    image: '/images/journal-arriving.png',
+    image: '/images/journal-arriving.jpg',
     reversed: false,
   },
   {
@@ -414,7 +414,7 @@ export const CHAPTERS: readonly Chapter[] = [
       'In a quiet studio on the edge of the Seto sea, we sit with Kenji-san as he speaks about clay, patience, and silence.',
     author: 'Theo Lindqvist',
     readTime: 9,
-    image: '/images/journal-naoshima.png',
+    image: '/images/journal-naoshima.jpg',
     reversed: true,
   },
   {
@@ -427,7 +427,7 @@ export const CHAPTERS: readonly Chapter[] = [
       'A private menu in the Basque hills, where every plate is a kind of letter — and the silence between courses, the most eloquent line.',
     author: 'Margaux Reyes',
     readTime: 5,
-    image: '/images/journal-twelve-courses.png',
+    image: '/images/journal-twelve-courses.jpg',
     reversed: false,
   },
 ] as const;

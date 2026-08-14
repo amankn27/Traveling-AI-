@@ -48,14 +48,14 @@ export const metadata: Metadata = {
     title: 'Veloria — Quiet journeys, composed slowly',
     description:
       'Hand-walked destinations, a journal written slowly, and a letter that arrives twice a season.',
-    images: [{ url: '/images/curator-note.png', width: 1200, height: 630, alt: 'Veloria' }],
+    images: [{ url: '/images/curator-note.jpg', width: 1200, height: 630, alt: 'Veloria' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Veloria — Quiet journeys, composed slowly',
     description:
       'Hand-walked destinations, a journal written slowly, and a letter that arrives twice a season.',
-    images: ['/images/curator-note.png'],
+    images: ['/images/curator-note.jpg'],
   },
   icons: {
     icon: [{ url: '/favicon.svg', type: 'image/svg+xml' }],

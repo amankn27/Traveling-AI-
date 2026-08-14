@@ -30,7 +30,7 @@ export function Newsletter() {
     >
       <div aria-hidden="true" className="absolute inset-0 opacity-30">
         <Image
-          src="/images/newsletter-bg.png"
+          src="/images/newsletter-bg.jpg"
           alt=""
           fill
           sizes="100vw"
