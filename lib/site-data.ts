@@ -241,6 +241,7 @@ export const DESTINATIONS: readonly Destination[] = [
     season: 'Late Monsoon',
     blurb:
       'A Portuguese villa in the north, shutters open to the rain, and long empty beaches walked before the season turns and the crowds return.',
+    image: '/images/goa.jpg',
     terrain: 'coast',
     imageHeight: 640,
     offset: false,
@@ -257,6 +258,7 @@ export const DESTINATIONS: readonly Destination[] = [
     season: 'Early Winter',
     blurb:
       'Art Deco balconies above Marine Drive, a dawn walk through Kala Ghoda before the heat, and dinners that begin late and end later.',
+    image: '/images/mumbai.jpg',
     terrain: 'city',
     imageHeight: 500,
     offset: true,
@@ -273,6 +275,7 @@ export const DESTINATIONS: readonly Destination[] = [
     season: 'Cool Season',
     blurb:
       'A marble palace on still water, Aravalli hills going blue at dusk, and mornings on the lake before the city has quite woken.',
+    image: '/images/udaipur.jpg',
     terrain: 'palace',
     imageHeight: 500,
     offset: false,
@@ -289,6 +292,7 @@ export const DESTINATIONS: readonly Destination[] = [
     season: 'Post-Monsoon',
     blurb:
       'Slow water through the backwaters, a teak houseboat moored under coconut palms, and food cooked over fire by the people who grew it.',
+    image: '/images/kerala.jpg',
     terrain: 'backwater',
     imageHeight: 640,
     offset: true,
@@ -307,6 +311,7 @@ export const DESTINATIONS: readonly Destination[] = [
     season: 'Late Spring',
     blurb:
       'A cave house cut into the caldera wall, the Aegean impossibly far below, and evenings that hold their light long after dinner.',
+    image: '/images/santorini.jpg',
     terrain: 'island',
     imageHeight: 640,
     offset: false,
@@ -323,6 +328,7 @@ export const DESTINATIONS: readonly Destination[] = [
     season: 'Dry Season',
     blurb:
       'A tented camp moved with the herds, acacia shade at noon, and a horizon so wide it takes a day or two to learn how to look at it.',
+    image: '/images/serengeti.jpg',
     terrain: 'savanna',
     imageHeight: 500,
     offset: true,
@@ -339,6 +345,7 @@ export const DESTINATIONS: readonly Destination[] = [
     season: 'Andean Winter',
     blurb:
       'Terraces stacked into the Andes, weavers working the old dyes, and the walk to Machu Picchu taken slowly enough to arrive properly.',
+    image: '/images/sacred-valley.jpg',
     terrain: 'andes',
     imageHeight: 500,
     offset: false,
@@ -355,6 +362,7 @@ export const DESTINATIONS: readonly Destination[] = [
     season: 'Dry Season',
     blurb:
       'A compound above the rice terraces in Sidemen, temple mornings before the heat, and long afternoons where nothing at all is asked of you.',
+    image: '/images/bali.jpg',
     terrain: 'terrace',
     imageHeight: 640,
     offset: true,

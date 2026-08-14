@@ -87,16 +87,16 @@ ANTHROPIC_API_KEY=sk-ant-...
 
 ## Destination imagery
 
-Twelve journeys ship. The original four (Kyoto, Faroe Islands, Marrakech,
-Patagonia) use the reference's photographs, in `public/images`.
+All twelve journeys carry photographs in `public/images`. The eight added later
+(Goa, Mumbai, Udaipur, Kerala, Santorini, Serengeti, Sacred Valley, Bali) are
+Unsplash-licensed and cropped to a uniform 1200×1500 — see `CREDITS.md`. The
+original four came from the reference site and are **not licensed**; `CREDITS.md`
+flags them for replacement.
 
-The eight added later — Goa, Mumbai, Udaipur, Kerala, Santorini, Serengeti,
-Sacred Valley, Bali — have **no photography**, so each renders a procedural SVG
-plate from `components/ui/DestinationPlate.tsx`: a layered scene drawn in the
-site's own palette. They're deliberate stand-ins, not stock imagery.
-
-To swap in a real photo, drop the file in `public/images` and set `image` on that
-destination in `lib/site-data.ts`. The card picks the photo automatically:
+`components/ui/DestinationPlate.tsx` remains the fallback: any destination
+without an `image` renders a procedural SVG scene drawn in the site's palette,
+so a journey can be added before its photography exists. Removing the `image`
+line switches a card back to the drawn plate:
 
 ```ts
 { slug: 'goa', /* … */ image: '/images/goa.jpg', terrain: 'coast' }
